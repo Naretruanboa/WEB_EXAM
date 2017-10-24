@@ -14,10 +14,6 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
 .App-intro {
   font-size: large;
 }
@@ -25,4 +21,26 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.contaner{
+  width: 600px;
+}
+.contanerleft {
+  float: left;
+  width: 400px
+}
+.contanerright{
+  float: right;
+  width: 200px;height: 150px;
+}
+.col1{
+   float: left;
+   width: 50%;
+   height: 150px;
+ }
+.col2{
+  float: right;
+  width: 50%;
+  height: 150px;
 }
